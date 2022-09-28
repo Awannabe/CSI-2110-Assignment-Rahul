@@ -1,24 +1,27 @@
-import java.util.LinkedList;
 import java.util.Queue;
+import java.util.LinkedList;
+import java.util.ArrayList;
 public class PizzeriaQueue{
 
-    Queue<Integer> PizzaBatch=new LinkedList<>();
 
 
 
-
-    //create a new queue every time u have a new pizza type
-    //reuse a queue if u already have that pizza type
-
-    addPizza(){
-        //check does this pizza type already exist
-        //locate it 
-        //open it to start adding to it
-        
-
-
-
-        //create a new 
+    public static void main(String[] args) {
+        ArrayList<Queue<PizzaType>> MainArrayList=new ArrayList<>();
+        Queue Cheese =new Queue
     }
+
+
+    Queue<PizzaType>
+
+
+    class PizzaType{
+        long timeOfCreation;
+        String Pizzatype;
+        PizzaType(String Pizztype){
+            Pizzatype=Pizztype;
+            timeOfCreation=System.nanoTime();
+
+        }
     }
 }
